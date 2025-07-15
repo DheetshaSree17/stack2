@@ -1,0 +1,146 @@
+/* GLOBAL PAGE STYLING */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #00dbde, #3ad59f);
+}
+
+/* FORM CONTAINERS (SignUp / Login) */
+.form-container {
+  background-color: #fff;
+  padding: 30px 35px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00c9a7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #00b69d;
+}
+
+/* LINK STYLE BELOW FORMS */
+.link {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.link a {
+  color: #00c9a7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* OTP MESSAGE FEEDBACK */
+.otp-message {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* PRODUCT / HOME PAGE */
+.product-page {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #555;
+  margin: 40px 0 20px;
+}
+
+/* PRODUCT IMAGE ROWS */
+.product-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.product-card img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00c9a7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card p {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* LOGOUT BUTTON (PRODUCT PAGE) */
+.logout-button {
+  padding: 12px 30px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e63e4a;
+}
